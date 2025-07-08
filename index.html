@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Webinar Registration</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+  <header>
+    <h1>Free Webinar: Mastering Web Development</h1>
+    <div class="total">
+    <p>Join us live on </p>
+      <!--May 20th, 2025-->
+    <div class="bld">
+      <div id="month"></div>
+      <div id="date"></div>
+      <div id="year"></div>
+    </div>
+   <p> to learn how to build responsive websites from scratch.</p>
+   </div>
+    <img src="./web.jpg" alt="Webinar Image" class="hero-image"/>
+  </header>
+
+  <div class="container">
+
+    <section class="features">
+      <div class="feature">
+        <img src="https://cdn-icons-png.flaticon.com/512/2721/2721296.png" alt="Speaker Icon">
+        <h3>Expert Speaker</h3>
+        <p>Learn from a seasoned developer with 10+ years of experience.</p>
+      </div>
+      <div class="feature">
+        <img src="https://cdn-icons-png.flaticon.com/512/2711/2711222.png" alt="Live Icon">
+        <h3>Live Q&A</h3>
+        <p>Ask your questions and get live answers during the session.</p>
+      </div>
+      <div class="feature">
+        <img src="https://cdn-icons-png.flaticon.com/512/2641/2641339.png" alt="Certificate Icon">
+        <h3>Certificate</h3>
+        <p>Receive a certificate of participation at the end of the webinar.</p>
+      </div>
+    </section>
+
+    <!--<form>
+      <h2>Register Now</h2>
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea placeholder="Any message (optional)" rows="4"></textarea>
+      <button type="submit">Reserve My Spot</button>
+    </form>-->
+     <form id="registerForm">
+    <h2>Register Now</h2>
+    <input type="text" placeholder="Your Name" id="name" required />
+    <input type="email" placeholder="Your Email" id="email" required />
+    <textarea placeholder="Any message (optional)" rows="4"></textarea>
+    <button type="submit">Reserve My Spot</button>
+  </form>
+
+
+  </div>
+
+  <footer>
+    <p>&copy; WebDev Masters. All rights reserved.</p>
+    <p>Contact: chvamsikri@gmail.com</p>
+  </footer>
+  <script src="./script.js"></script>
+</body>
+</html>
